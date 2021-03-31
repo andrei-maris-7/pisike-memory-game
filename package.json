@@ -1,0 +1,18 @@
+{
+  "name": "pisike-memory",
+  "version": "1.0.0",
+  "description": "Memory game with pisike",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Andrei Maris",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}

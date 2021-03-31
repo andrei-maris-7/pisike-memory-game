@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="src/sass/main.scss" />
+
+  <script defer src="src/js/index.js"></script>
+
+
+  <title>Pisike memory game</title>
+</head>
+
+<body>
+  <div class="layout-container">
+    <h1 class="game__title">Pisike Memory Game</h1>
+
+  <section class="memory-game">
+
+    <div class="memory-card" data-id="bucatarie">
+      <img class="front-side" src="./src/img/1. bucatarie.jpg" alt="bucatarie">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="bucatarie">
+      <img class="front-side" src="./src/img/1. bucatarie.jpg" alt="bucatarie">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="caiet">
+      <img class="front-side" src="./src/img/2. caiet.jpg" alt="caiet">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="caiet" >
+      <img class="front-side" src="./src/img/2. caiet.jpg" alt="caiet">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="chef">
+      <img class="front-side" src="./src/img/3. chef.jpg" alt="fara chef">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="chef">
+      <img class="front-side" src="./src/img/3. chef.jpg" alt="fara chef">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="cucubau">
+      <img class="front-side" src="./src/img/4. cucu-bau.jpg" alt="cucu-bau">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="cucubau">
+      <img class="front-side" src="./src/img/4. cucu-bau.jpg" alt="cucu-bau">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="sleep">
+      <img class="front-side" src="./src/img/5. dormitor.jpg" alt="sleep">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="sleep">
+      <img class="front-side" src="./src/img/5. dormitor.jpg" alt="sleep">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="drawme">
+      <img class="front-side" src="./src/img/6. draw-me.jpg" alt="french girl">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="drawme">
+      <img class="front-side" src="./src/img/6. draw-me.jpg" alt="french girl">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="ganditor">
+      <img class="front-side" src="./src/img/7. ganditor.jpg" alt="pisica ganditoare">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="ganditor">
+      <img class="front-side" src="./src/img/7. ganditor.jpg" alt="pisica ganditoare">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="mangusta">
+      <img class="front-side" src="./src/img/8. mangusta.jpg" alt="mangusta">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="mangusta">
+      <img class="front-side" src="./src/img/8. mangusta.jpg" alt="mangusta">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="pozitie">
+      <img class="front-side" src="./src/img/9. pozitie.jpg" alt="pe masa">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="pozitie">
+      <img class="front-side" src="./src/img/9. pozitie.jpg" alt="pe masa">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="kitten">
+      <img class="front-side" src="./src/img/10. pui.jpg" alt="kitten">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="kitten">
+      <img class="front-side" src="./src/img/10. pui.jpg" alt="kitten">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="rama">
+      <img class="front-side" src="./src/img/11. rama.jpg" alt="rama">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="rama">
+      <img class="front-side" src="./src/img/11. rama.jpg" alt="rama">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="outside">
+      <img class="front-side" src="./src/img/12. vreau-afara.jpg" alt="vreau afara">
+      <div class="back-side"></div>
+    </div>
+
+    <div class="memory-card" data-id="outside">
+      <img class="front-side" src="./src/img/12. vreau-afara.jpg" alt="vreau afara">
+      <div class="back-side"></div>
+    </div>
+
+    
+   </section>
+
+   <div class="game__highlights">
+   
+  <div class="moves__container">
+    <p class="game__highlights--moves">Moves</p>
+    <p class="game__highlights--movesValue">0</p>
+  </div>
+  
+  <div class="rounds__container">
+    <p class="game__highlights--rounds">Rounds played</p>
+    <p class="game__highlights--roundsValue">0</p>
+  </div>
+  
+  <div class="score__container">
+    <p class="game__highlights--bestScore">Best Score</p>
+    <p class="game__highlights--bestScoreValue">0</p>
+  </div>
+  
+  <p class="game__highlights--newGame">New Game</p>
+  <p class="game__highlights--reset">Reset</p>
+
+  </div>
+   </div>
+  
+ </body>
+</html>
