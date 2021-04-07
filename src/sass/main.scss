@@ -17,6 +17,7 @@ html {
 body {
   height: 100vh;
   padding: 2rem;
+  max-width: 100%;
 }
 
 .layout-container {
@@ -138,6 +139,7 @@ body {
   grid-area: score;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 3rem;
 
   &--reset {
     font-weight: 700;
